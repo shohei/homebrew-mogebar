@@ -1,6 +1,6 @@
 require 'formula'
 
-HOMEBREW_MOGEBAR_VERSION = '0.0.1'
+HOMEBREW_MOGEBAR_VERSION = '0.0.3'
 class Mogebar < Formula
   # homepage 'https://github.com/shohei/homebrew-mogebar/'
   homepage 'https://github.com/shohei/homebrew-mogebar/archive/master.zip'
