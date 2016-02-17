@@ -22,6 +22,8 @@ class Mogebar < Formula
   puts 'inside install'
     files= `ls`
     puts files 
+    com = `cat moge.rb`
+    puts com
     dir = `pwd`
     puts dir
     puts 'mogemoge'
