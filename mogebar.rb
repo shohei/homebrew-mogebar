@@ -10,7 +10,7 @@ class Mogebar < Formula
   skip_clean 'bin'
 
   def install
-    bin.install 'bin/moge'
+    bin.install 'mogebar'
     # (bin+'mogebar').chmod 0755
   end
 end
