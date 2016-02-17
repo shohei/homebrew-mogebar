@@ -1,7 +1,7 @@
 require 'formula'
 
-HOMEBREW_BREWALL_VERSION = '0.0.1'
-class Brewall < Formula
+HOMEBREW_MOGE_VERSION = '0.0.1'
+class Moge < Formula
   homepage 'https://github.com/shohei/homebrew-moge/'
   url 'https://github.com/shohei/homebrew-moge.git', :tag => "v#{HOMEBREW_BREWALL_VERSION}"
   version HOMEBREW_BREWALL_VERSION
