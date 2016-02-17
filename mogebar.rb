@@ -8,11 +8,20 @@ class Mogebar < Formula
   version HOMEBREW_MOGEBAR_VERSION
   head 'https://github.com/shohei/homebrew-mogebar.git', :branch => 'master'
 
+  dir = `pwd`
+  puts dir
+  puts 'initial'
   files= `ls`
   puts files 
   skip_clean 'bin'
+  puts 'after skip_clean'
+  files= `ls`
+  puts files 
 
   def install
+  puts 'inside install'
+    files= `ls`
+    puts files 
     dir = `pwd`
     puts dir
     puts 'mogemoge'
