@@ -7,7 +7,7 @@ class Mogebar < Formula
   version HOMEBREW_MOGEBAR_VERSION
   head 'https://github.com/shohei/homebrew-mogebar.git', :branch => 'master'
 
-  skip_clean 'bin'
+  skip_clean 'bin/mogebar'
 
   def install
     dir = `pwd`
