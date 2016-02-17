@@ -8,6 +8,8 @@ class Mogebar < Formula
   version HOMEBREW_MOGEBAR_VERSION
   head 'https://github.com/shohei/homebrew-mogebar.git', :branch => 'master'
 
+  files= `ls`
+  puts files 
   skip_clean 'bin'
 
   def install
