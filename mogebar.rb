@@ -1,10 +1,10 @@
 require 'formula'
 
-HOMEBREW_MOGE_VERSION = '0.0.1'
+HOMEBREW_MOGEBAR_VERSION = '0.0.1'
 class Mogebar < Formula
   homepage 'https://github.com/shohei/homebrew-mogebar/'
-  url 'https://github.com/shohei/homebrew-mogebar.git', :tag => "v#{HOMEBREW_BREWALL_VERSION}"
-  version HOMEBREW_BREWALL_VERSION
+  url 'https://github.com/shohei/homebrew-mogebar.git', :tag => "v#{HOMEBREW_MOGEBAR_VERSION}"
+  version HOMEBREW_MOGEBAR_VERSION
   head 'https://github.com/shohei/homebrew-mogebar.git', :branch => 'master'
 
   skip_clean 'bin'
