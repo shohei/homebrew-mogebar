@@ -10,7 +10,9 @@ class Mogebar < Formula
   skip_clean 'bin'
 
   def install
-    system 'pwd'
+    dir = system('pwd')
+    puts dir
+    puts 'mogemoge'
     bin.install 'bin/mogebar'
     # (bin+'mogebar').chmod 0755
   end
